@@ -54,7 +54,6 @@ $htmlContent = @"
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title> vSphere Datacenter $datacenterName </title>
-    <center> The diagrams are generated using Mermaid.js code and rendered in your browser! </center
     <script type="module" src="https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.min.js"></script>
     <script>
         document.addEventListener('DOMContentLoaded', function() {
@@ -64,8 +63,9 @@ $htmlContent = @"
 </head>
 <body>
     <h2><center> vSphere Datacenter $datacenterName </center></h2>
+    <center> The diagrams are generated using Mermaid.js code and rendered in your browser! </center>
     <div class="mermaid">
-$($mermaidCode -join "`n")
+       $($mermaidCode -join "`n")
     </div>
 </body>
 </html>
