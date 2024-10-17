@@ -7,24 +7,28 @@ In modern development and documentation, creating diagrams directly from code ha
 <br>
 <br>
 <br>
+
 ## Goals
-A concise introduction to Mermaid.js through a practical application and documented for my own reference.<br>
-Here is a [PowerCLI script](https://github.com/rafaelurrutiasilva/visualization-as-code-with-mermaid.js/blob/main/powershell/Visualize-vSphere.ps1) used to interact with a vCenter instance to retrieve its vSphere datacenters, underlying clusters, and the ESXi hosts within them. This data is then visualized in a dynamic diagram using Mermaid.js, providing a clear and organized view of the infrastructure.
+A concise introduction to Mermaid.js through a practical application and documented for my own reference.
+
+## Method
+I use a [PowerCLI script](https://github.com/rafaelurrutiasilva/visualization-as-code-with-mermaid.js/blob/main/powershell/Visualize-vSphere.ps1) to interact with a vCenter instance to retrieve its vSphere datacenters, underlying clusters, and the ESXi hosts within them. 
+This Mermaid code is then embedded in an HTML page and visualized as a dynamic diagram using Mermaid.js, offering a clear and organized representation of the infrastructure.
 
 ## Example
 The code and syntax provided here serve as an example of what the result could look like.
 ```
 flowchart TD;
-    subgraph Datacenter [vSphere Datacenter <datacenterName>]
-        subgraph Cluster1 [vSphere Cluster Cluster1]
+    subgraph Datacenter [vSphere Datacenter DatacenterONE]
+        subgraph Cluster1 [vSphere Cluster Cluster01]
             cluster-Cluster1(ESXi01, ESXi02)
             style Cluster1 stroke:blue, stroke-width:1px
         end
-        subgraph Cluster2 [vSphere Cluster Cluster2]
+        subgraph Cluster2 [vSphere Cluster Cluster02]
             cluster-Cluster2(ESXi03, ESXi04)
             style Cluster2 stroke:blue, stroke-width:1px
         end
-        subgraph Cluster3 [vSphere Cluster Cluster3]
+        subgraph Cluster3 [vSphere Cluster Cluster03]
             cluster-Cluster3(ESXi5, ESXi07)
             style Cluster3 stroke:blue, stroke-width:1px
         end
@@ -34,16 +38,16 @@ flowchart TD;
 ## The visalization 
 ```mermaid
 flowchart TD;
-    subgraph Datacenter [vSphere Datacenter <datacenterName>]
-        subgraph Cluster1 [vSphere Cluster Cluster1]
+    subgraph Datacenter [vSphere Datacenter DatacenterONE]
+        subgraph Cluster1 [vSphere Cluster Cluster01]
             cluster-Cluster1(ESXi01, ESXi02)
             style Cluster1 stroke:blue, stroke-width:1px
         end
-        subgraph Cluster2 [vSphere Cluster Cluster2]
+        subgraph Cluster2 [vSphere Cluster Cluster02]
             cluster-Cluster2(ESXi03, ESXi04)
             style Cluster2 stroke:blue, stroke-width:1px
         end
-        subgraph Cluster3 [vSphere Cluster Cluster3]
+        subgraph Cluster3 [vSphere Cluster Cluster03]
             cluster-Cluster3(ESXi5, ESXi07)
             style Cluster3 stroke:blue, stroke-width:1px
         end
