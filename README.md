@@ -8,8 +8,8 @@ In modern development and documentation, creating diagrams directly from code ha
 <br>
 <br>
 ## Goals
-A concise introduction to Mermaid.js through a practical application and document it for my own reference.<br>
-Here is a PowerCLI script used to interact with a vCenter instance to retrieve its vSphere datacenters, underlying clusters, and the ESXi hosts within them. This data is then visualized in a dynamic diagram using Mermaid.js, offering a clear and organized view of the infrastructure.
+A concise introduction to Mermaid.js through a practical application and documented for my own reference.<br>
+Here is a [PowerCLI script](https://github.com/rafaelurrutiasilva/visualization-as-code-with-mermaid.js/blob/main/powershell/Visualize-vSphere.ps1) used to interact with a vCenter instance to retrieve its vSphere datacenters, underlying clusters, and the ESXi hosts within them. This data is then visualized in a dynamic diagram using Mermaid.js, providing a clear and organized view of the infrastructure.
 
 ## Conclusion
 By combining automation from your preferred programming language with Mermaid.js visualizations, you can efficiently represent complex environments in a simple and maintainable format. 
