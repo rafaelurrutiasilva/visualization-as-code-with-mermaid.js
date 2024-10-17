@@ -6,7 +6,6 @@ In modern development and documentation, creating diagrams directly from code ha
 <br>
 <br>
 <br>
-<br>
 
 ## Goals
 A concise introduction to Mermaid.js through a practical application and documented for my own reference.
