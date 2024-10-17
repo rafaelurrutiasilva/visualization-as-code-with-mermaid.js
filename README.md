@@ -17,21 +17,38 @@ The code and syntax provided here serve as an example of what the result could l
 flowchart TD;
     subgraph Datacenter [vSphere Datacenter <datacenterName>]
         subgraph Cluster1 [vSphere Cluster Cluster1]
-            cluster-Cluster1(ESXi1, ESXi2)
+            cluster-Cluster1(ESXi01, ESXi02)
             style Cluster1 stroke:blue, stroke-width:1px
         end
         subgraph Cluster2 [vSphere Cluster Cluster2]
-            cluster-Cluster2(ESXi3, ESXi4)
+            cluster-Cluster2(ESXi03, ESXi04)
             style Cluster2 stroke:blue, stroke-width:1px
         end
         subgraph Cluster3 [vSphere Cluster Cluster3]
-            cluster-Cluster3(ESXi5)
+            cluster-Cluster3(ESXi5, ESXi07)
             style Cluster3 stroke:blue, stroke-width:1px
         end
     end
 ```
 
-
+## The visalization 
+```mermaid
+flowchart TD;
+    subgraph Datacenter [vSphere Datacenter <datacenterName>]
+        subgraph Cluster1 [vSphere Cluster Cluster1]
+            cluster-Cluster1(ESXi01, ESXi02)
+            style Cluster1 stroke:blue, stroke-width:1px
+        end
+        subgraph Cluster2 [vSphere Cluster Cluster2]
+            cluster-Cluster2(ESXi03, ESXi04)
+            style Cluster2 stroke:blue, stroke-width:1px
+        end
+        subgraph Cluster3 [vSphere Cluster Cluster3]
+            cluster-Cluster3(ESXi5, ESXi07)
+            style Cluster3 stroke:blue, stroke-width:1px
+        end
+    end
+```
 
 ## Conclusion
 By combining automation from your preferred programming language with Mermaid.js visualizations, you can efficiently represent complex environments in a simple and maintainable format. 
