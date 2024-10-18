@@ -1,4 +1,4 @@
-### [🇸🇪 Svenska](README_se.md) / [🇬🇧 English](README.md)
+[🇸🇪 Svenska](README_se.md) / [🇬🇧 English](README.md)
 # Visualisering som kod med Mermaid.js
 <img width="300" alt="MyLogo" src="https://mermaid.js.org/mermaid-logo.svg" align=left><br> 
 <br> <br> 
