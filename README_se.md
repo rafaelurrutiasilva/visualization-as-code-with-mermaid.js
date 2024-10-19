@@ -12,7 +12,7 @@ Genom att behandla visualiseringar som kod effektiviserar Mermaid.js processen, 
 En kortfattad introduktion till Mermaid.js genom en praktisk tillämpning, dokumenterad för att fungera som referens för mig själv.
 
 ## Metod
-Jag använder ett [PowerCLI-skript](powershell/Visualize-vSphere.ps1) för att interagera med en vCenter-instans och hämta dess vSphere-datacenter, underliggande kluster och ESXi-värdar inom dem.
+Jag använder ett eget skapat [PowerCLI-skript](powershell/Visualize-vSphere.ps1) för att interagera med en vCenter-instans och hämta dess vSphere-datacenter, underliggande kluster och ESXi-servrar inom dem.
 Denna Mermaid-kod bäddas sedan in i en HTML-sida och visualiseras som ett dynamiskt diagram med hjälp av Mermaid.js, vilket ger en tydlig och organiserad representation av infrastrukturen.
 
 ## Exempel
