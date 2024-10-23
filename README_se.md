@@ -1,7 +1,8 @@
 [🇸🇪 Svenska](README_se.md) / [🇬🇧 English](README.md)
 # Visualisering som kod med Mermaid.js
-<img width="300" alt="Logo" src="https://mermaid.js.org/mermaid-logo.svg" align=left><br> 
-<br> <br> 
+<img width="200" alt="Logo" src="https://raw.githubusercontent.com/mermaid-js/mermaid/develop/docs/public/favicon.svg" align=left>
+<br>
+
 I modern utveckling och dokumentation har skapandet av diagram direkt från kod blivit ett kraftfullt verktyg för att visualisera komplexa idéer. 
 [Mermaid.js](https://mermaid.js.org/) gör det möjligt för användare att generera flödesscheman, sekvensdiagram, Gantt-scheman och mer, med hjälp av enkel textbaserad syntax. 
 Det integreras sömlöst med Markdown och olika plattformar som GitHub och GitLab, vilket gör det till ett idealiskt val för teknisk dokumentation. 
