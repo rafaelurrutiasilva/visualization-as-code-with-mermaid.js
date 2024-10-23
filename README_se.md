@@ -39,7 +39,7 @@ flowchart TD;
 ```mermaid
 flowchart TD;
     subgraph Datacenter [vSphere Datacenter DatacenterONE]
-        style Cluster1 stroke:blue, stroke-width:1px
+        style Datacenter stroke:blue, stroke-width:1px
         subgraph Cluster1 [vSphere Cluster Cluster01]
             cluster-Cluster1(ESXi01, ESXi02)
             style Cluster1 stroke:blue, stroke-width:1px
